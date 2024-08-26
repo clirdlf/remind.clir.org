@@ -27,6 +27,11 @@
               ></a>
             </li>
             <li>
+              <a href="{{ site.youtube }}"
+                ><span class="bi bi-youtube"></span
+              ></a>
+            </li>
+            <li>
               <a href="{{ site.linkedin }}"
                 ><span class="bi bi-linkedin"></span
               ></a>
@@ -39,19 +44,14 @@
           <h2 class="ftco-heading-2">Explore</h2>
           <ul class="list-unstyled">
             <li>
-              <a href="#"
+              <a href="{{'/about' | url}}"
                 ><span class="ion ion-ios-arrow-round-forward me-2"></span
                 >About</a
               >
             </li>
-            <li>
-              <a href="#"
-                ><span class="ion ion-ios-arrow-round-forward me-2"></span
-                >Blog</a
-              >
             </li>
             <li>
-              <a href="#"
+              <a href="{{'/contact/' | url }}"
                 ><span class="ion ion-ios-arrow-round-forward me-2"></span
                 >Contact us</a
               >
@@ -61,7 +61,7 @@
       </div>
       <div class="col-md-6 col-lg">
         <div class="ftco-footer-widget mb-4">
-          <h2 class="ftco-heading-2">Recent Posts</h2>
+          <h2 class="ftco-heading-2">Navigation</h2>
           <div class="block-21 mb-4 d-flex">
             <a
               class="blog-img img rounded"
@@ -84,7 +84,7 @@
               </div>
               #}
               <h3 class="heading">
-                <a href="#">The Problem</a>
+                <a href="{{'/posts/problem/' | url }}">The Problem</a>
               </h3>
             </div>
           </div>
@@ -110,7 +110,7 @@
               </div>
               #}
               <h3 class="heading">
-                <a href="#">Our Solution</a>
+                <a href="{{ '/posts/solution/' | url }}">Our Solution</a>
               </h3>
             </div>
           </div>
@@ -135,7 +135,7 @@
               </div>
               #}
               <h3 class="heading">
-                <a href="#">Another Section</a>
+                <a href="{{'/posts/theory-of-change/' | url }}">Theory of Change</a>
               </h3>
             </div>
           </div>
@@ -162,9 +162,9 @@
               </li>
               #}
               <li>
-                <a href="mailto:contact@clir.org"
+                <a href="mailto:{{ site.email }}"
                   ><span class="icon fa fa-paper-plane"></span
-                  ><span class="text">contact@clir.org</span></a
+                  ><span class="text">{{ site.email }}</span></a
                 >
               </li>
             </ul>

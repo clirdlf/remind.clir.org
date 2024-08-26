@@ -2,6 +2,7 @@
 title: The Solution
 tags: world
 image_path: /assets/images/aleza-van-der-werff-pvNIRh4pNcQ-unsplash.jpg
+date: 2024-08-02
 ---
 
 Re:Mind empowers communities to preserve cultural heritage in the face of climate-related disasters through community-driven digitization, leadership, and thoughtfully designed digital technologies. By leveraging CLIR's expertise in community mobilization, leadership and skills training, collaboratively developed technologies, and large-scale preservation of rare and unique materials, . Re:Mind will establish complementary and globally scalable programs that capture, share, and activate hidden and endangered knowledge for current and future generations.

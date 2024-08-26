@@ -2,6 +2,7 @@
 title: The Problem
 tags: world
 image_path: /assets/images/raissa-lara-lutolf-fasel-HfHZl7nIwEw-unsplash.jpg
+date: 2024-08-03
 ---
 
 Communities around the globe are facing unprecedented challenges as they grapple with the impacts of climate change. Climbing temperatures, sea-level rise, and extreme weather events threaten the fabric of these communities’ cultural heritage – the traditions, languages, customs, and histories that encapsulate their values, experiences, and knowledge.

@@ -19,6 +19,11 @@
 
 $beige: rgb(255, 253, 237);
 
+$yellow: #f4bf2c; // original
+$orange: #ECA72C;
+$teal: #07BEB8;
+$yellow: #ECA72C;
+
 :root {
     --bs-font-sans-serif: Poppins;
 }
@@ -162,7 +167,7 @@ body {
 .ftco-navbar-light .navbar-toggler:hover,
 .ftco-navbar-light .navbar-toggler:focus {
     text-decoration: none;
-    color: #f4bf2c;
+    color: $yellow;
     outline: none !important;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -322,12 +327,12 @@ body {
 
 .hero-wrap .slider-text .breadcrumbs span a:hover,
 .hero-wrap .slider-text .breadcrumbs span a:focus {
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .hero-wrap .slider-text .breadcrumbs span a:hover i,
 .hero-wrap .slider-text .breadcrumbs span a:focus i {
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .hero-wrap .slider-text .bread {
@@ -356,7 +361,7 @@ body {
 }
 
 .bg-primary {
-    background: #f4bf2c !important;
+    background: $yellow !important;
 }
 
 .bg-darken {
@@ -389,8 +394,8 @@ body {
 }
 
 .btn.btn-primary {
-    background: #f4bf2c !important;
-    border: 1px solid #f4bf2c !important;
+    background: $yellow !important;
+    border: 1px solid $yellow !important;
     color: #111111 !important;
 }
 
@@ -399,9 +404,9 @@ body {
 }
 
 .btn.btn-primary:hover {
-    border: 1px solid #f4bf2c;
+    border: 1px solid $yellow;
     background: transparent;
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .btn.btn-darken {
@@ -449,7 +454,7 @@ body {
 
 .form-control:focus,
 .form-control:active {
-    border-color: #f4bf2c !important;
+    border-color: $yellow !important;
 }
 
 textarea.form-control {
@@ -680,7 +685,7 @@ textarea.form-control {
 }
 
 .ftco-footer .logo a span {
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .ftco-footer .ftco-footer-widget h2,
@@ -708,11 +713,11 @@ textarea.form-control {
 }
 
 .ftco-footer .ftco-footer-widget ul li a:hover {
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .ftco-footer .ftco-footer-widget ul li a:hover span {
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .ftco-footer .ftco-footer-widget .btn-primary {
@@ -743,7 +748,7 @@ textarea.form-control {
 
 .ftco-footer .block-23 ul li span {
     color: rgba(0, 0, 0, 0.7);
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .ftco-footer .block-23 ul li .icon,
@@ -788,7 +793,7 @@ textarea.form-control {
 .ftco-footer .block-21 .text .heading a:hover,
 .ftco-footer .block-21 .text .heading a:active,
 .ftco-footer .block-21 .text .heading a:focus {
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .ftco-footer .block-21 .text .meta>div {
@@ -940,7 +945,7 @@ textarea.form-control {
 }
 
 .testimony-section .tns-nav>.tns-nav-active {
-    background: #f4bf2c;
+    background: $yellow;
 }
 
 .testimony-section .tns-item:not(.tns-slide-active)+.tns-slide-active+.tns-slide-active .testimony-wrap {
@@ -1012,7 +1017,7 @@ textarea.form-control {
 .testimony-wrap .position {
     font-size: 13px;
     text-transform: uppercase;
-    color: #f4bf2c;
+    color: $yellow;
     font-weight: 500;
 }
 
@@ -1068,8 +1073,8 @@ textarea.form-control {
 
 .blog-entry .text h2 a:hover,
 .blog-entry .text .h2 a:hover {
-    -webkit-text-decoration-color: #f4bf2c;
-    text-decoration-color: #f4bf2c;
+    -webkit-text-decoration-color: $yellow;
+    text-decoration-color: $yellow;
 }
 
 .blog-entry .meta {
@@ -1084,7 +1089,7 @@ textarea.form-control {
 }
 
 .blog-entry .meta span i {
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .blog-entry .btn-custom {
@@ -1145,7 +1150,7 @@ textarea.form-control {
 }
 
 .wrapper .social-media p a {
-    color: #f4bf2c;
+    color: $yellow;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 600;
@@ -1200,7 +1205,7 @@ textarea.form-control {
 }
 
 .contactForm .label {
-    color: #f4bf2c;
+    color: $yellow;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
@@ -1238,7 +1243,7 @@ textarea.form-control {
 .block-21 .text .heading a:hover,
 .block-21 .text .heading a:active,
 .block-21 .text .heading a:focus {
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 .block-21 .text .meta>div {
@@ -1249,7 +1254,7 @@ textarea.form-control {
 
 .block-21 .text .meta>div a {
     color: gray;
-    color: #f4bf2c;
+    color: $yellow;
 }
 
 /* Blog*/
@@ -1323,7 +1328,7 @@ textarea.form-control {
 
 .comment-form-wrap .form-control:focus,
 .comment-form-wrap .form-control:active {
-    border-color: #f4bf2c !important;
+    border-color: $yellow !important;
 }
 
 .comment-form-wrap textarea.form-control {
