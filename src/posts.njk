@@ -1,42 +1,46 @@
 ---
 title: Posts
-layout: page.njk
+layout: base.njk
 eleventyNavigation:
   key: Posts
   order: 2
 ---
 
-<div class="row mb-2">
-  {% for post in collections.posts | reverse %}
-  <div class="col-md-6">
-    <div
-      class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
-    >
-      <div class="col p-4 d-flex flex-column position-static">
-        <strong class="d-inline-block mb-2 text-primary-emphasis">{{
-          post.data.tags | filterTagList
-        }}</strong>
-        <h3 class="mb-0">Featured post</h3>
-        <div class="mb-1 text-body-secondary">
-          <time
-            class="postlist-date"
-            datetime="{{ post.date | htmlDateString }}"
-            >{{ post.date | readableDate("LLLL yyyy") }}</time
-          >
+
+<section class="ftco-section bg-light ftco-no-pt">
+  <div class="container-xl">
+    <div class="row">
+      {% for post in collections.posts | reverse %}
+        {% set row_test =  loop.index % 2 == 0  %}
+        {% set image_p = post.data.image_path | url %}
+
+        <div class="col-md-12 blog-entry d-flex align-items-stretch">
+          <div class="col-md-7 {{ '' if row_test else 'order-md-last' }}">
+            <div
+              class="img rellax"
+              data-rellax-speed="-5"
+              data-rellax-min="-120"
+              data-rellax-max="0"
+              style="background-image: url({{ image_p }}); transform: translate3d(0px, -103px, 0px);">
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="text py-5 ps-md-5 my-lg-5">
+              <h2 class="mb-4">
+                <a href="{{ post.url | url }}">{{ post.data.title }}</h2></a>
+            </div>
+            <p class="mb-4">
+              {% excerpt post %}
+            </p>
+            <p>
+              <a href="{{ post.url | url }}" class="btn-custom"
+                >Learn More
+                <span class="ion ion-ios-arrow-round-forward ms-2"></span
+              ></a>
+            </p>
+          </div>
         </div>
-        <p class="card-text mb-auto">{% excerpt post.content %}</p>
-        <a
-          href="{{ post.url | url }}"
-          class="icon-link gap-1 icon-link-hover stretched-link"
-        >
-          Continue reading
-          <i class="bi bi-chevron-right"></i>
-        </a>
-      </div>
-      <div class="col-auto d-none d-lg-block">
-        {% image post.data.image_path, post.data.title, 'img-fluid' %}
-      </div>
+      {% endfor %}
     </div>
   </div>
-  {% endfor %}
-</div>
+</section>

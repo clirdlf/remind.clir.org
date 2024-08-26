@@ -30,7 +30,7 @@ let rellaxHero = new Rellax('.rellaxHero')
  */
 let rellax = new Rellax('.rellax', { center: true })
 
-console.log('rellax:', rellax)
+// console.log('rellax:', rellax)
 
 /**
  * Initializes a slider for carousel elements with class 'carousel-testimony'.

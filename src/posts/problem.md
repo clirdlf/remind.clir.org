@@ -1,6 +1,7 @@
 ---
 title: The Problem
 tags: world
+image_path: /assets/images/raissa-lara-lutolf-fasel-HfHZl7nIwEw-unsplash.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque tristique nunc. Phasellus condimentum diam et risus aliquam blandit. Nullam molestie neque ut ipsum sollicitudin eleifend sit amet laoreet tellus. In efficitur diam id suscipit lacinia. Sed faucibus auctor dui a ornare. Aenean pellentesque eros id aliquam fringilla. Mauris dapibus efficitur lectus. Donec vehicula massa libero, at molestie magna molestie sit amet. Maecenas sit amet consectetur enim, sit amet blandit ante. Integer tristique urna eget dolor dapibus, maximus cursus nulla sodales.
