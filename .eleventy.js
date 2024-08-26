@@ -169,6 +169,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('currentTime', () => {
     return DateTime.now().toString()
   })
+  // https://11ty.rocks/eleventyjs/dates/#year-shortcode
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 
   return {
     dir: {
