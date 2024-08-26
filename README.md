@@ -1,3 +1,16 @@
+# Re:Mind Website
+
+There is an issue with the image sizes and should be able to write a shortcode to generate the correct image sizes. However, it's taking a bit to work through the source code, so a short term fix is to generate webp version:
+
+```
+cd src/assets/images
+sips -s format jpeg -s formatOptions high -s dpiWidth 72 -s dpiHeight 72 -Z 1600 * --out "web"
+for file in web/*; do cwebp -q 50 "$file" -o "${file%.*}.webp"; done
+```
+
+
+
+
 # 11ty with Bootstrap Scaffold
 
 This is scaffold for new projects using [11ty](https://www.11ty.dev/) with [Bootstrap](https://getbootstrap.com/docs/5.3/examples/) (building with [Vite](https://vitejs.dev/)) meant to deploy to [GitHub Pages](https://pages.github.com/). Also includes some basic [VSCode](https://code.visualstudio.com/) setup.

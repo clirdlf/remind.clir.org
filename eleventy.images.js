@@ -18,6 +18,8 @@ function isFullUrl(url) {
 }
 
 module.exports = function (eleventyConfig) {
+  // Eleventy CSS background image
+
   // Eleventy Image shortcode
   // https://www.11ty.dev/docs/plugins/image/
   eleventyConfig.addAsyncShortcode(
