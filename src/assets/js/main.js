@@ -23,7 +23,7 @@ import Rellax from 'rellax'
 /**
  * Creates a new Rellax instance for elements with class 'rellaxHero'.
  */
-let rellaxHero = new Rellax('.rellaxHero')
+// let rellaxHero = new Rellax('.rellaxHero')
 
 /**
  * Creates a new Rellax instance for elements with class 'rellax' and centers them.
