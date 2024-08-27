@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
     <meta name="description" content="{{ site.description }}" />
+    <link rel="icon" href="{{ og_image_alt | url }}" />
+    <link
+      rel="icon"
+      href="{{ '/assets/images/clir.svg' | url }}"
+      type="image/svg+xml"
+    />
+    <link rel="apple-touch-icon" href="{{ og_image_alt | url }}" />
     {% include 'opengraph.njk' %}
   </head>
   <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">

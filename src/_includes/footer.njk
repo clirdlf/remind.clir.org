@@ -9,19 +9,21 @@
             </a>
           </h2>
           <figure class="pb-3">
-            <blockquote class="blockquote pb-3 fs-5">Listen Ocol, my old friend, <br>
-            The ways of your ancestors <br>
-            Are good, <br>
-            Their customs are solid<br>
-            And not hollow<br>
-            They are not thin, not easily breakable<br>
-            They cannot be blown away<br>
-            By the winds<br>
-            Because their roots reach deep<br>
-            into the soil.
+            <blockquote class="blockquote pb-3 fs-5">
+              Listen Ocol, my old friend, <br />
+              The ways of your ancestors <br />
+              Are good, <br />
+              Their customs are solid<br />
+              And not hollow<br />
+              They are not thin, not easily breakable<br />
+              They cannot be blown away<br />
+              By the winds<br />
+              Because their roots reach deep<br />
+              into the soil.
             </blockquote>
             <figcaption class="blockquote-footer">
-              <cite title="Song of Lawino">"Song of Lawino"</cite> by Okot p'Bitek
+              <cite title="Song of Lawino">"Song of Lawino"</cite> by Okot
+              p'Bitek
             </figcaption>
           </figure>
 
@@ -59,16 +61,13 @@
           <h2 class="ftco-heading-2">Explore</h2>
           <ul class="list-unstyled">
             <li>
-              <a href="{{'/about' | url}}"
-                ><span class="ion ion-ios-arrow-round-forward me-2"></span
-                >About</a
+              <a href="{{ '/about' | url }}"
+                ><span class="bi bi-arrow-right me-2"></span>About</a
               >
             </li>
-            </li>
             <li>
-              <a href="{{'/contact/' | url }}"
-                ><span class="ion ion-ios-arrow-round-forward me-2"></span
-                >Contact us</a
+              <a href="{{ '/contact/' | url }}"
+                ><span class="bi bi-arrow-right me-2"></span>Contact us</a
               >
             </li>
           </ul>
@@ -99,7 +98,7 @@
               </div>
               #}
               <h3 class="heading">
-                <a href="{{'/posts/problem/' | url }}">The Problem</a>
+                <a href="{{ '/posts/problem/' | url }}">The Problem</a>
               </h3>
             </div>
           </div>
@@ -150,7 +149,9 @@
               </div>
               #}
               <h3 class="heading">
-                <a href="{{'/posts/theory-of-change/' | url }}">Theory of Change</a>
+                <a href="{{ '/posts/theory-of-change/' | url }}"
+                  >Theory of Change</a
+                >
               </h3>
             </div>
           </div>
@@ -193,10 +194,8 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <p class="mb-0" style="font-size: 14px">
-            Copyright &copy;
-
-            {% year %}
-            All rights reserved | <strong>Re:Mind</strong> is a project of
+            Copyright &copy; {% year %} All rights reserved |
+            <strong>Re:Mind</strong> is a project of
             <a target="_blank" href="https://www.clir.org/">CLIR</a>
             <i class="bi bi-heart clir-burgundy" aria-hidden="true"></i>
           </p>

@@ -15,10 +15,10 @@ import Rellax from 'rellax'
 /**
  * Initializes AOS library with specified configuration options.
  */
-AOS.init({
-  ease: 'slide',
-  once: true
-})
+// AOS.init({
+//   ease: 'slide',
+//   once: true
+// })
 
 /**
  * Creates a new Rellax instance for elements with class 'rellaxHero'.
