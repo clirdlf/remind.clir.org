@@ -5,7 +5,7 @@ image_path: /assets/images/aleza-van-der-werff-pvNIRh4pNcQ-unsplash.webp
 date: 2024-08-15
 ---
 
-lorem
+As Re:Mind embarks on its mission to preserve and promote culturally significant heritage in the face of climate-related threats, we recognize the importance of building upon existing knowledge and best practices. This section serves as a curated list of citations and resources that have informed our project’s development and will continue to guide our efforts.
 
 <!-- more -->
 
@@ -26,6 +26,8 @@ Limb, Peter. “The Digitization of Africa.” Africa Today 52, no. 2 (2005): 3�
 Markam, A. Climate Change Threatens Africa’s Cultural Heritage. <https://blog.ucsusa.org/adam-markham/climate-change-threatens-africas-cultural-heritage/>{target="_blank"}.
 
 Mkonda, Msafiri Yusuph. “Stakeholders’ Engagement in the Process of Adapting to Climate Change Impacts. A Case of Central Tanzania.” Management of Environmental Quality 33, no. 4 (n.d.): 975–90. <https://doi.org/10.1108/MEQ-11-2021-0258>{target="_blank"}.
+
+Nordling, L. ‘The damage is total’: fire rips through historic South African library and plant collection. <https://www.nature.com/articles/d41586-021-01045-4>
 
 Paskowska-Schnass, M. (2024). The impact of climate change on cultural heritage. <https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2024)762282>{target="_blank"}.
 
