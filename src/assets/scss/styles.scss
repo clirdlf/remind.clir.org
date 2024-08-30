@@ -15,6 +15,8 @@ $orange: #eca72c;
 $teal: #07beb8;
 $yellow: #eca72c;
 
+$dark-gray: #444444;
+
 :root {
   --bs-font-sans-serif: Poppins;
 }
@@ -223,7 +225,7 @@ $yellow: #eca72c;
 @media (max-width: 991.98px) {
   .hero-wrap .slider-text h1,
   .hero-wrap .slider-text .h1 {
-    font-size: 25vw;
+    font-size: 20vw;
   }
 }
 .hero-wrap .slider-text h2,
@@ -913,9 +915,9 @@ textarea.form-control {
 }
 .blog-entry .text h2,
 .blog-entry .text .h2 {
-  font-size: 90px;
-  font-weight: 400;
-  line-height: 1.1;
+  // font-size: 90px;
+  // font-weight: 400;
+  // line-height: 1.1;
 }
 .blog-entry .text h2 a,
 .blog-entry .text .h2 a {
