@@ -1,7 +1,7 @@
 ---
 title: The Problem
 tags: world
-image_path: /assets/images/raissa-lara-lutolf-fasel-HfHZl7nIwEw-unsplash.jpg
+image_path: /assets/images/raissa-lara-lutolf-fasel-HfHZl7nIwEw-unsplash.webp
 date: 2024-08-03
 ---
 
