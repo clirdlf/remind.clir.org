@@ -1,15 +1,15 @@
 {
-  "title": "Re:Mind",
+  "title": "RE:Mind",
   "description": "Connecting Life to Knowledge During Climate Destruction",
   "url": "https://remind.clir.org",
-  "email": "info@clir.org",
   "lang": "en",
   "locale": "en_us",
   "author": "CLIR",
-  "og_image_alt": "assets/images/clir-logo.webp",
+  "og_image_alt": "/assets/images/clir-logo.webp",
   "twitter": "https://twitter.com/clirnews",
   "linkedin": "https://www.linkedin.com/company/6203386/",
   "facebook": "https://www.facebook.com/pages/Council-on-Library-and-Information-Resources-CLIR/300100435096",
   "instagram": "",
-  "youtube": "http://www.youtube.com/user/DLFCLIR?blend=2&ob=0"
+  "youtube": "http://www.youtube.com/user/DLFCLIR?blend=2&ob=0",
+  "email": "info@clir.org"
 }

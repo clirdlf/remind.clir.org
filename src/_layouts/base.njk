@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang }}">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>{{ title }}</title>
+    <title>{{ site.title }} | {{ title }}</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css"
+    />
     <meta name="description" content="{{ site.description }}" />
     {% include 'opengraph.njk' %}
   </head>
-  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    <main data-pagefind-body>
-      {% include 'header.njk' %}
-      {{ content | safe }}
-    </main>
+  <body data-pagefind-body>
+    {% include 'navigation.njk' %}
+
+    {{ content | safe }}
 
     {% include 'newsletter.njk' %} {% include 'footer.njk' %}
     <script type="module" src="{{ '/assets/js/main.js' | url }}"></script>

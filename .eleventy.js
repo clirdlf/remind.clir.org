@@ -36,6 +36,10 @@ function extractExcerpt(article) {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/')
+  eleventyConfig.addPassthroughCopy('src/css/')
+  eleventyConfig.addPassthroughCopy('src/images/')
+  eleventyConfig.addPassthroughCopy('src/js/')
+
   eleventyConfig.addPassthroughCopy('CNAME')
 
   eleventyConfig.addPlugin(pluginImages)
@@ -61,6 +65,7 @@ module.exports = function (eleventyConfig) {
       clearScreen: false,
       appType: 'mpa', // New in v2.0.0
       assetsInclude: ['**/*.xml', '**/*.txt', 'CNAME'],
+      // base: '/eleventy-plus-bootstrap-scaffold', // use this instead of pathPrefix
 
       // plugins: [pagefind()],
 
@@ -166,11 +171,22 @@ module.exports = function (eleventyConfig) {
   //https://dev.to/jonoyeong/excerpts-with-eleventy-4od8
   eleventyConfig.addShortcode('excerpt', (article) => extractExcerpt(article))
 
+  // https://dev.to/jonathanyeong/excerpts-with-eleventy-4od8
+  eleventyConfig.addShortcode('intro', function (article) {
+    const content = article.templateContent
+    const m = content.match(/([\s\S]+)<!-- more -->/)
+    if (m) {
+      return striptags(m[1]).trim()
+    }
+    return content
+  })
+
+  // https://11ty.rocks/eleventyjs/dates/#year-shortcode
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
+
   eleventyConfig.addShortcode('currentTime', () => {
     return DateTime.now().toString()
   })
-  // https://11ty.rocks/eleventyjs/dates/#year-shortcode
-  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`)
 
   return {
     dir: {
@@ -184,6 +200,6 @@ module.exports = function (eleventyConfig) {
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk'
     // important for github pages build (subdirectory):
-    // pathPrefix: "/"
+    // pathPrefix: '/'
   }
 }

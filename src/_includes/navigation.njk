@@ -10,7 +10,7 @@
 <nav class="navbar navbar-expand-lg fixed-top ftco-navbar-light">
     <div class="container-xl">
       <a class="navbar-brand align-items-center" href="{{'/' | url }}">
-        Re:Mind.
+        {{ site.title }}.
       </a>
       <button
         class="navbar-toggler"
@@ -21,36 +21,12 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="fa fa-bars"></span> Menu
+      <span class="bi bi-list"></span> Menu
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" href="{{'/' | url }}">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{'/about/'}}">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{'/contact/'}}">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-<!-- 
-<nav class="navbar navbar-expand-lg fixed-top ftco-navbar-light">
-    <div class="container-xl">
-        <a class="navbar-brand align-items-center" href="{{ '/' | url }}">
-            <img src="{{'/assets/images/clir-logo.webp' | url }}" alt="CLIR logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fa fa-bars"></span> Menu
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                {%- for item in collections.all | eleventyNavigation -%}
-        {%- if item.url and item.hideInMainNav != true -%}
+          {%- for item in collections.all | eleventyNavigation -%}
+            {%- if item.url and item.hideInMainNav != true -%}
             {%- set isCurrent = (item.url == page.url) -%}
             {%- set isParent = item.url != '/' and item.url in page.url -%}
             {%- set hasChildren = item.children.length -%}
@@ -78,24 +54,11 @@
                     {%- for child in item.children %}{{ renderNavListDropdown(child) }}{% endfor -%}
                 </ul>
             {%- endif -%}
-        </li>
-        {%- endif -%}
-    {%- endfor -%}
-
-
-                {# <li class="nav-item"><a class="nav-link active" href="{{'/' | url }}">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ '/about/' | url }}">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ '/contact/' |  url }}">Contact</a></li> #}
-            </ul>
-        </div>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </div>
     </div>
-</nav>
--->
-{# See: https://www.11ty.dev/docs/plugins/navigation/ #}
-{# See https://getbootstrap.com/docs/5.3/components/navbar/ #}
-{# Nav Links  #}
-{# <ul class="nav nav-pills ms-auto">
-    
-</ul> #}
+  </nav>
 
 {# This file is ignored by prettier by now /bc too much damage ;-), see .prettierignore #}
