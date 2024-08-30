@@ -29,7 +29,7 @@ module.exports = function (eleventyConfig) {
       alt,
       cls = 'float-start p-3',
       widths,
-      sizes
+      sizes = '100vh'
     ) {
       // Full list of formats here: https://www.11ty.dev/docs/plugins/image/#output-formats
       // Warning: Avif can be resource-intensive so take care!
@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
       }
 
       let metadata = await eleventyImage(input, {
-        widths: widths || ['auto'],
+        widths: widths || ['400', 'auto'],
         formats,
         outputDir: path.join(eleventyConfig.dir.output, 'img') // Advanced usage note: `eleventyConfig.dir` works here because we’re using addPlugin.
       })
