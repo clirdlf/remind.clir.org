@@ -19,3 +19,23 @@ To address this challenge, it’s essential to adopt a holistic approach that co
 
 Our solution provides capacity-building programs for communities that collect, document, preserve, and share unique cultural heritage before it is lost. The beliefs, values, and behaviors captured in those artifacts and traditions can then be applied to build resilience in the face of climate change.  
 
+<div class="quote my-4 py-4">
+<blockquote>
+   El mar mira al bosque.<br>
+   El bosque no tiene mar.<br>
+   El bosque es simple. Es rojo es un corazón de tigre que ruge y es luz<br>
+   con tres rayas blancas y grita. No grita.<br>
+   El bosque sale a la luz y apuñala a nubes y a pájaros. Es un alma que se pierde.<br>
+   Es inocente como un gusano que nace y canta. No canta. Dice en la noche.<br>
+   El bosque silba de noche y aparece en el ojo del ojo de las culebras muertas.<br>
+   Se retuerce. Es un lecho de raíces terráqueas hinchándose a solas.<br>
+   El bosque está a solas.<br>
+   Es una luna helada que contempla el paso de una niña.
+</blockquote>
+<cite>
+    <a target="_blank" href="https://atmos.earth/mexico-cloud-forest-climate-change-poetry/">El Bosque
+</a> by María Baranda
+</cite>
+</div>
+
+</div>

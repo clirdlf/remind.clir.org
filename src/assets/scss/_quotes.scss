@@ -45,3 +45,83 @@
     text-align: left;
   }
 }
+
+.pull-quote {
+  blockquote {
+    margin: 6rem 0;
+    padding: 0 6rem;
+    position: relative;
+  }
+
+  blockquote::before {
+    content: '\201C';
+    font-size: 28rem;
+    line-height: 0;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.12);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 10.2rem;
+    left: -1.2rem;
+  }
+
+  blockquote p {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0;
+    font-size: 2.7rem;
+    line-height: 1.667;
+    color: #000000;
+  }
+
+  blockquote cite {
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  blockquote cite::before {
+    content: '\2014 \0020';
+  }
+
+  blockquote cite a,
+  blockquote cite a:visited {
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    blockquote {
+      padding: 0 0 0 6rem;
+    }
+
+    blockquote p {
+      font-size: 2.6rem;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    blockquote p {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    blockquote {
+      padding: 0 0 0 3rem;
+    }
+
+    blockquote p {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    blockquote p {
+      font-size: 2.2rem;
+    }
+  }
+}

@@ -2,7 +2,19 @@
 layout: base
 ---
 
-<section class="hero-wrap hero-wrap-2">
+{%- if image_path | length -%} {% set css%} .hero-wrap-2 { background-image:
+linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{
+  image_path | url
+}}'); background-size: cover; background-position: center; } .hero-wrap
+.slider-text .breadcrumbs span a { color: #fff; } .hero-wrap .slider-text .bread
+{ color: #fff; } {% endset %}
+
+<style>
+  {{ css | safe | trim }}
+</style>
+{%- endif -%}
+
+<section id="intro" class="hero-wrap hero-wrap-2">
   <div class="overlay"></div>
   <div class="container">
     <div
@@ -19,5 +31,13 @@ layout: base
     </div>
   </div>
 </section>
+{#
+<section id="variables">
+  <h1>variables</h1>
+  <code>
+    <pre>{{ image_path }}</pre>
+  </code>
+</section>
+#}
 
 {{ content | safe }}
