@@ -31,6 +31,8 @@ layout: page
       }
     }
 
+    /* TODO breakpoints for text-alignment */
+
     span {
       display: block;
       text-transform: uppercase;
@@ -50,18 +52,20 @@ previousPost = collections.posts | getPreviousCollectionItem %} {% set nextPost
 <section class="ftco-section border-top border-bottom">
   <div class="container">
     <div class="row g-5">
-      <div class="col-4 content-prev text-end">
+      <div class="col-md-4 col-sm-12 content-prev text-md-end">
         {% if nextPost %}
         <a href="{{ nextPost.url }}" rel="previous"
           ><span>Previous</span> {{ nextPost.data.title }}</a
         >{% endif %}
       </div>
 
-      <div class="col-4 text-center content-current border-start border-end">
+      <div
+        class="col-md-4 col-sm-12 text-md-center content-current border-start border-end"
+      >
         <a href="#top"><span>Current</span> {{ title }}</a>
       </div>
 
-      <div class="col-4 content-prev">
+      <div class="col-md-4 col-sm-12 content-prev">
         {% if previousPost %}
         <a href="{{ previousPost.url }}" rel="next"
           ><span>Next</span> {{ previousPost.data.title }}</a
