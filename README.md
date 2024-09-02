@@ -15,6 +15,17 @@ sips -s format jpeg -s formatOptions high -s dpiWidth 72 -s dpiHeight 72 -Z 1600
 for file in web/*; do cwebp -q 50 "$file" -o "${file%.*}.webp"; done
 ```
 
+## JavaScript Dependencies
+
+* [Animate.css](https://animate.style/)
+* [Animate on Scroll](https://michalsnik.github.io/aos/)
+* [Bootstrap 5](https://getbootstrap.com/)
+* [Bootstrap Icons](https://icons.getbootstrap.com/)
+* [GLightbox](https://biati-digital.github.io/glightbox/)
+* [pagefind](https://pagefind.app/)
+* [rellax](https://dixonandmoe.com/rellax/)
+* [Tiny Slider 2](https://github.com/ganlanyuan/tiny-slider)
+
 # 11ty with Bootstrap Scaffold
 
 This is scaffold for new projects using [11ty](https://www.11ty.dev/) with [Bootstrap](https://getbootstrap.com/docs/5.3/examples/) (building with [Vite](https://vitejs.dev/)) meant to deploy to [GitHub Pages](https://pages.github.com/). Also includes some basic [VSCode](https://code.visualstudio.com/) setup.

@@ -89,7 +89,7 @@
           {% for post in collections.posts | reverse | head(4) %}
           <div class="block-21 mb-4 d-flex">
             <a
-              class="blog-img img rounded"
+              class="blog-img img-thumbnail rounded"
               style="background-image: url({{ post.data.image_path | url }})"
             ></a>
             <div class="text">
