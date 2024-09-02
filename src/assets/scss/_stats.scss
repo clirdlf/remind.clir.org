@@ -1,0 +1,48 @@
+// Stats Tab
+// markup:
+
+// <ul class="stats-tabs">
+//     <li><a href="#">[value]<em>[name]</em></a></li>
+// </ul>
+
+.stats-tabs {
+  padding: 0;
+  margin: 3rem 0;
+}
+
+.stats-tabs li {
+  display: inline-block;
+  margin: 0 1.5rem 3rem 0;
+  padding: 0 1.5rem 0 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.stats-tabs li:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.stats-tabs li a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  //   font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  border: none;
+  color: #000000;
+}
+
+.stats-tabs li a:hover {
+  color: #111860;
+}
+
+.stats-tabs li a em {
+  display: block;
+  margin: 0.6rem 0 0 0;
+  //   font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+}

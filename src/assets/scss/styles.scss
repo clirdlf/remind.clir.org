@@ -12,6 +12,7 @@
 
 @import 'axole';
 @import 'quotes';
+@import 'stats';
 
 $beige: rgb(255, 253, 237);
 
@@ -24,6 +25,11 @@ $dark-gray: #444444;
 
 :root {
   --bs-font-sans-serif: Poppins;
+}
+
+.blog-single {
+  h1 {
+  }
 }
 
 .blog-single p {
