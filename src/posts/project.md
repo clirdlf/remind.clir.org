@@ -16,3 +16,24 @@ Chief goals of the project include:
 * Long-term animation and augmentation of presently hidden and inaccessible assets of human ingenuity and insight, including rare and unique cultural and scientific artifacts and documentation; 
 * Proof of a scalable methodology that insists on the interdependence of global communities of practice, assisted by technology, that can serve as paradigm for future collaborative responses that mitigate the deleterious consequences of human agency in the Anthropocene; 
 * A behavioral model that bolsters the longer-term survival of our collective legacy. 
+
+<aside class="quote my-5">
+<figure>
+<blockquote class="blockquote pb-3 fs-5">
+    Listen Ocol, my old friend, <br />
+    The ways of your ancestors <br />
+    Are good, <br />
+    Their customs are solid<br />
+    And not hollow<br />
+    They are not thin, not easily breakable<br />
+    They cannot be blown away<br />
+    By the winds<br />
+    Because their roots reach deep<br />
+    into the soil.
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Song of Lawino">"<a target="_blank" href="https://unesdoc.unesco.org/ark:/48223/pf0000068124">Song of Lawino</a>"</cite> by Okot
+    p'Bitek
+  </figcaption>
+</figure>
+</aside>

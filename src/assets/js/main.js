@@ -41,8 +41,6 @@ var rellax = new Rellax('.rellax', {
 // @see https://mdbootstrap.com/docs/standard/extended/back-to-top/
 let mybutton = document.getElementById('btn-back-to-top')
 
-console.log(mybutton)
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction()
