@@ -1,23 +1,22 @@
 ---
 title: The Challenge
 tags: world
-image_path: /assets/images/raissa-lara-lutolf-fasel-HfHZl7nIwEw-unsplash.webp
+image_path: /assets/images/thomas-bennie-TcpcIk72D1s-unsplash.webp
 date: 2024-08-29
 ---
 
-Communities around the globe are facing unprecedented challenges as they grapple with the impacts of climate change. Climbing temperatures, sea-level rise, and extreme weather events threaten the fabric of these communities’ cultural heritage – the traditions, languages, customs, and histories that encapsulate their values, experiences, and knowledge.
+The challenge we address is a combination of two interrelated destructive phenomena. The first is the emerging catastrophe of climatological disruption. Communities around the globe are facing unprecedented challenges as they grapple with the impacts of climate change. Climbing temperatures, sea-level rise, and extreme weather events threaten the fabric of these communities’ cultural heritage—the traditions, languages, customs, and histories that encapsulate their values, experiences, and knowledge.
 
 <!-- more -->
 
-Populations in our target areas (Sub-Saharan Africa and related diaspora, the South Pacific, and Central America) are particularly vulnerable to these changes. Climate-related disasters have already forced many to migrate or relocate, disrupting the continuity of their cultural practices and identities. Further, the increasing frequency and severity of extreme weather events put pressure on fragile ecosystems, compromising the foundation of community life.
+Indigenous populations in our focus areas (Africa and related diaspora, Oceania, and Central America) are particularly vulnerable to these changes. The increasing frequency and severity of extreme weather events put pressure on fragile ecosystems, compromising the foundation of community life.
+ 
+As sense of place, languages, customs, and traditions fade away, so too do the unique perspectives and values passed through generations. This loss of heritage is a loss for all humanity, as it diminishes our collective understanding and appreciation of the diversity that makes us human.
+ 
+The second aspect of our challenge is our failure to effectively respond to climate change. A paradox informs this lack of action: great strides in engineering, our ingenious economic instruments, our reclamation and refinement of dormant energy, our sophisticated algorithms—accomplishments popularly termed progress—have created the current state of a violent and unpredictable climate. Governments and industry have fallen short of achieving action at scale, leaving organizations, movements, and projects across the planet to step in to attempt to mitigate climate disruption. The ability, and demand, to apply these uncoordinated solutions to an effective measure is scattershot.
 
-It’s not just these communities who are affected – entire cultures are at risk. As languages, customs, and traditions fade away, so too do the unique perspectives and values passed down through generations. The loss of cultural heritage is a loss for all humanity, as it diminishes our collective understanding and appreciation of the diversity that makes us human.
+In some respects, our challenge is as fundamental as human nature.
 
-Rapid urbanization, globalization, and climate change currently affect all human life, but these changes are also accelerating cultural identity erosion among indigenous and other more vulnerable populations. As communities adapt to these changes, they understandably prioritize survival over preservation, gradually losing their unique heritage.
-
-To address this challenge, it’s essential to adopt a holistic approach that considers the interplay between climate resilience and cultural preservation. This requires partnerships among governments, community organizations, and institutions – as well as innovative solutions that prioritize inclusive, adaptive, and responsive practices.
-
-Our solution provides capacity-building programs for communities that collect, document, preserve, and share unique cultural heritage before it is lost. The beliefs, values, and behaviors captured in those artifacts and traditions can then be applied to build resilience in the face of climate change.  
 
 <div class="quote my-4 py-4">
 <blockquote>
