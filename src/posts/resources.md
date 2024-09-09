@@ -1,6 +1,6 @@
 ---
 title: Resources
-tags: world
+tags: featured
 image_path: /assets/images/aleza-van-der-werff-pvNIRh4pNcQ-unsplash.webp
 date: 2024-08-15
 ---

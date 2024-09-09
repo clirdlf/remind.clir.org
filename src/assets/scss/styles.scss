@@ -13,6 +13,7 @@
 @import 'axole';
 @import 'quotes';
 @import 'stats';
+@import 'partners';
 
 $beige: rgb(255, 253, 237);
 
@@ -32,14 +33,6 @@ $dark-gray: #444444;
   bottom: 20px;
   right: 20px;
   display: none;
-}
-
-.blog-single {
-  h1 {
-  }
-}
-
-.blog-single p {
 }
 
 .blog-single p:first-of-type {
