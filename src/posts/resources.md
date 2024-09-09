@@ -21,6 +21,10 @@ CVI-Africa: Project Summary <https://openarchive.icomos.org/id/eprint/2667/1/CVI
 
 Intergovernmental Panel on Climate Change (IPCC). Climate Change 2014 – Impacts, Adaptation and Vulnerability: Part A: Global and Sectoral Aspects. Cambridge University Press. <https://www.ipcc.ch/report/ar5/wg2/>{target="_blank"}.
 
+Kelman, Ilan. 2023. "Climate Change and Pacific Islander Life." <https://gjia.georgetown.edu/2023/04/28/climate-change-and-pacific-islander-life/>{target="_blank"}
+
+Kendall, Rachel "Climate change as a security threat to the Pacific Islands" [2012] NZJlEnvLaw 4; (2012) 16 NZJEL 83 <https://www.nzlii.org/nz/journals/NZJlEnvLaw/2012/4.html>{target="_blank"}.
+
 King, Rachel. 2023. “The Future of Heritage Management and Development in Africa.” African Archaeological Review. <https://doi.org/10.1007/s10437-023-09559-0>{target="_blank"}.
 
 Limb, Peter. 2005. “The Digitization of Africa.” Africa Today. <http://www.jstor.org/stable/4187700>{target="_blank"}.

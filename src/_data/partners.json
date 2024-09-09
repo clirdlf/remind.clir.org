@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Association of African Universities",
+    "image": "/assets/images/aau.webp",
+    "url": "https://aau.org/",
+    "width": "225",
+    "height": "225"
+  },
+  {
+    "name": "Réseau francophone numérique",
+    "image": "/assets/images/logo_RFN.webp",
+    "url": "http://www.rfnum.org/pages/",
+    "width": "359",
+    "height": "129"
+  },
+  {
+    "name": "HBCU Library Alliance",
+    "image": "/assets/images/hbcu-logo.webp",
+    "url": "https://hbculibraries.org/",
+    "width": "175",
+    "height": "175"
+  },
+  {
+    "name": "STOUT RESEARCH CENTRE, TE HERENGA WAKA",
+    "image": "/assets/images/logo-green-full.png",
+    "url": "https://www.wgtn.ac.nz/stout-centre",
+    "width": "175",
+    "height": "175"
+  },
+  {
+    "name": "Stanford University Libraries",
+    "image": "/assets/images/SUL-footer-stacked_whitetext.png",
+    "url": "https://library.stanford.edu/",
+    "width": "175",
+    "height": "175"
+  },
+  {
+    "name": "Princeton University Libraries",
+    "image": "/assets/images/princeton-logo.png",
+    "url": "https://library.princeton.edu/",
+    "width": "175",
+    "height": "175"
+  },
+  {
+    "name": "UbuntuNet Alliance",
+    "image": "/assets/images/cropped-UbuntuNet-Alliance-1.webp",
+    "url": "https://ubuntunet.net/",
+    "width": "440",
+    "height": "129"
+  },
+  {
+    "name": "Council on Library and Information Resources",
+    "image": "/assets/images/clir-logo.webp",
+    "url": "https://www.clir.org/",
+    "width": "247",
+    "height": "247"
+  },
+  {
+    "name": "Orion Magazine",
+    "image": "/assets/images/orion-logo.webp",
+    "url": "https://orionmagazine.org/",
+    "width": "1500",
+    "height": "494"
+  }
+]

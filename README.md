@@ -17,6 +17,10 @@ for file in web/*; do cwebp -q 50 "$file" -o "${file%.*}.webp"; done
 
 ## Resources
 
+https://www.poetryoutloud.org/poem/mauis-mission/
+
+https://www.greensabbathproject.net/all-posts/for-papatnuku-mother-earth-by-nadine-anne-hura-via-jacinda-ardern
+
 How Great Thou Art
 (Whakaaria Mai) ...
 https://m.youtube.com › watch
