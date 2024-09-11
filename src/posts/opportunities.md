@@ -2,6 +2,7 @@
 title: Opportunities
 image_path: /assets/images/aleza-van-der-werff-pvNIRh4pNcQ-unsplash.webp
 date: 2024-08-15
+eleventyExcludeFromCollections: true
 ---
 
 In the face of climate change, preserving and promoting cultural heritage is no longer a luxury, but an imperative. As global temperatures continue to rise, we are witnessing unprecedented threats to our shared cultural patrimony. It is in this context that Re:Mind offers a unique opportunity for cross-cultural cooperation and dialogue.
