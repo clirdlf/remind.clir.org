@@ -1,3 +1,5 @@
+@import 'lenis';
+
 *,
 *::after,
 *::before {
@@ -6,6 +8,7 @@
 
 :root {
   font-size: 18px;
+  scroll-behavior: auto !important;
 }
 
 body {

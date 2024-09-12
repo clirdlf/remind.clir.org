@@ -14,18 +14,20 @@ preloader()
 
 // All path elements in the page
 const paths = [...document.querySelectorAll('path.path-anim')]
-console.log(paths)
 
-// Smooth scrolling initialization (using Lenis https://github.com/studio-freight/lenis)
+// Smooth scrolling initialization (using Lenis https://github.com/darkroomengineering/lenis)
+const lenis = new Lenis()
 // const lenis = new Lenis({
 //   lerp: 0.1,
-//   smooth: true
+//   smoothWheel: true
 // })
-// const scrollFn = () => {
-//   lenis.raf()
-//   requestAnimationFrame(scrollFn)
-// }
-// requestAnimationFrame(scrollFn)
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
 
 // Animate the d attribute (path initial ) to the value in data-path-to;
 // start when the top of its SVG reaches the bottom of the viewport and
