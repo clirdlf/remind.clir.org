@@ -17,10 +17,6 @@ const paths = [...document.querySelectorAll('path.path-anim')]
 
 // Smooth scrolling initialization (using Lenis https://github.com/darkroomengineering/lenis)
 const lenis = new Lenis()
-// const lenis = new Lenis({
-//   lerp: 0.1,
-//   smoothWheel: true
-// })
 
 function raf(time) {
   lenis.raf(time)
