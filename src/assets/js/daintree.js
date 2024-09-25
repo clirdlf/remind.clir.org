@@ -1,7 +1,7 @@
 // Import our custom CSS
 import '../scss/daintree.scss'
 
-import Lenis from '@studio-freight/lenis'
+import Lenis from 'lenis'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { preloader } from './preloader'
