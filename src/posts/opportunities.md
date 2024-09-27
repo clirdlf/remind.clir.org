@@ -1,6 +1,6 @@
 ---
 title: Opportunities
-image_path: /assets/images/aleza-van-der-werff-pvNIRh4pNcQ-unsplash.webp
+image_path: /assets/images/photo-1719690992055-8812ed1829a5.avif
 date: 2024-08-15
 eleventyExcludeFromCollections: true
 ---
