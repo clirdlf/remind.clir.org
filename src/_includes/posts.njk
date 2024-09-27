@@ -2,7 +2,7 @@
   <div class="container-xl">
     {% for post in collections.posts | reverse %} {%- set row_test = loop.index
     % 2 == 0 -%} {%- set image_p = post.data.image_path | url -%}
-    <div class="row g-0">
+    <div id="{{ post.data.title | slugify }}" class="row g-0">
       <div class="col-md-12 blog-entry d-flex align-items-stretch">
         <div class="col-md-7{{ '' if row_test else ' order-md-last' }}">
           <div
