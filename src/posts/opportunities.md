@@ -1,8 +1,7 @@
 ---
 title: Opportunities
 image_path: /assets/images/photo-1719690992055-8812ed1829a5.avif
-date: 2024-08-15
-eleventyExcludeFromCollections: true
+date: 2024-08-28
 ---
 
 To respond effectively to climate disruption, Re:Mind is an adaptation strategy based on reciprocal transmutation.  Think of a dry, ancient riverbed. A shard of obsidian rests among the stones. An ancestor sees it and reconceives the object toward a new purpose, reinterpreting a stone as a scraper, a carving device, a tool. That imaginative leap bundles craft, skill, application, technique, and method to the rock piece. The idea restructures time. With this perceptual reformation a different future is portended and our capacity altered.  For the attentive designer, and all who similarly acknowledge and adopt the device, a new context is invented. The stone, replicated and refined to better adjust to its new purposes, generally retains its original state—it stays a stone—but catalyzes a different cognizance of the world. It has been appropriated by the human gaze, transfigured by intelligence while transmuting intelligence. 
@@ -15,7 +14,7 @@ Essential to this rethinking are stories: narratives offering different ways of 
 
 Inviting others, across disciplines, professions, and perspectives is similarly essential. New narratives, new visualizations, new forms of expression can inspire an anthrocentric counter to the anthropocene. Our working alliance with Orion Magazine is an instance of this opportunity; other publications will offer elegantly designed and articulated stories that animate the principles and mission of Re:Mind, through words, facts, formulas, statistical data, and other means of information capture made accessible, bringing life to knowledge.
 
-* Rapa Nui
+{# * Rapa Nui
 * Daintree Forest
 * Tikal
 * Tsingy de Bemaraha
@@ -29,4 +28,4 @@ Inviting others, across disciplines, professions, and perspectives is similarly 
 * Collaborative Research
 * Capacity Building
 * Digital Platforms
-* Community-led Initiatives
+* Community-led Initiatives #}
