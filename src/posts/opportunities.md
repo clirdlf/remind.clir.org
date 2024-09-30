@@ -8,6 +8,33 @@ To respond effectively to climate disruption, Re:Mind is an adaptation strategy 
 
 <!-- more -->
 
+<style>
+    #cairn {
+        background-image: url('/assets/images/lisa-zoe-RG07Rwkxg6k-unsplash.webp');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: 25% 50%;
+    
+    }
+</style>
+
+<div id="cairn" class="break-out my-5 py-5" style="">
+    <div class="container py-5 my-5">
+        <div class="row justify-content-center py-5 my-5">
+            <div class="col-lg-8 blog-single">
+                {# <aside class="quote">
+                    <blockquote>
+                        <div>
+                            <h1>A bunch of stones...</h1>
+                        </div>
+                    </blockquote>
+                </aside> #}
+            </div>
+        </div>
+    </div>
+</div>
+
 Re:Mind acknowledges the unprecedented paradox that shapes its goals. Earth has been terraformed by our vision, formulations, and ideas, by our values and aspirations. The now roiling planet is our singular achievement, an exhibit of the human mind made manifest. We have thought this world into being and fashioned an interlocking cascade of phenomena that have coalesced to displace, scorch, and drown us. We now have to rethink our way out of this predicament. 
 
 Essential to this rethinking are stories: narratives offering different ways of perceiving and knowing that can guide us to a more livable, responsible, and sustainable future. Recognizing that climate disruption is already underway, in some regions with a fiercely unsparing surety, capturing and integrating the threatened cultural record, with its trove of customs, values, symbols, and beliefs essential to our self-knowledge, is imperative. 

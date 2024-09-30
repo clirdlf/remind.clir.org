@@ -33,6 +33,13 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+//@see https://www.simon-li.com/design-and-code/an-elegant-way-to-break-the-bootstrap-container/
+.break-out {
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (100vw - 100%) / 2);
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;

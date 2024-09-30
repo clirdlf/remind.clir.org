@@ -8,6 +8,9 @@ import { preloader } from './preloader'
 // preload images
 preloader()
 
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
 // https://github.com/michalsnik/aos/tree/v2
 // import AOS from 'aos'
 // import 'aos/dist/aos.css'
@@ -28,6 +31,17 @@ import Rellax from 'rellax'
 //   ease: 'slide',
 //   once: true
 // })
+
+// var animate = function (text) {
+//   var textSplit = SplitText.create(text, { type: 'chars,words' })
+//   return gsap.from(textSplit.chars, {
+//     duration: 0.1,
+//     visibility: 'hidden',
+//     stagger: 0.1
+//   })
+// }
+
+// animate(document.getElementById('#animated_quote'))
 
 var rellaxHero = new Rellax('.rellaxHero', { breakpoints: [576, 768, 1201] })
 var rellax = new Rellax('.rellax', {
