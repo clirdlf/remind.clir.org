@@ -28,6 +28,11 @@ $dark-gray: #444444;
   --bs-font-sans-serif: Poppins;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
