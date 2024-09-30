@@ -40,6 +40,14 @@ html {
   left: calc(-1 * (100vw - 100%) / 2);
 }
 
+#cairn {
+  background-image: url('/assets/images/lisa-zoe-RG07Rwkxg6k-unsplash.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 25% 50%;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;

@@ -8,17 +8,6 @@ To respond effectively to climate disruption, Re:Mind is an adaptation strategy 
 
 <!-- more -->
 
-<style>
-    #cairn {
-        background-image: url('/assets/images/lisa-zoe-RG07Rwkxg6k-unsplash.webp');
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: 25% 50%;
-    
-    }
-</style>
-
 <div id="cairn" class="break-out my-5 py-5" style="">
     <div class="container py-5 my-5">
         <div class="row justify-content-center py-5 my-5">
