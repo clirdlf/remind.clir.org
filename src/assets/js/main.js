@@ -11,6 +11,8 @@ preloader()
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
+import { Howl, Howler } from 'howler'
+
 // https://github.com/michalsnik/aos/tree/v2
 // import AOS from 'aos'
 // import 'aos/dist/aos.css'

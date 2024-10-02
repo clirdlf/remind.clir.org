@@ -30,6 +30,27 @@ Essential to this rethinking are stories: narratives offering different ways of 
 
 Inviting others, across disciplines, professions, and perspectives is similarly essential. New narratives, new visualizations, new forms of expression can inspire an anthrocentric counter to the anthropocene. Our working alliance with Orion Magazine is an instance of this opportunity; other publications will offer elegantly designed and articulated stories that animate the principles and mission of Re:Mind, through words, facts, formulas, statistical data, and other means of information capture made accessible, bringing life to knowledge.
 
+<aside class="quote my-5">
+    <blockquote>
+        <div>
+            <span>
+                Asphixing draught leaves tumors in our once<br>
+                florid patches, the nearest green rumored<br>
+                three counties distant. We lay down<br>
+                in fields like children when our strength<br>
+                gave out. I knew my neighbor left<br>
+                when from a distance I could see the smoke<br>
+                of his thatched eaves thin, then pant,<br>
+                unwoven finally into wisps of vapor,<br>
+                so fair the sky. A hearth shortly untended,<br>
+                no troubled bell or rooted, local fragrance<br>
+                to spare him.<br><br>
+            </span>
+            <cite>Knowing My Neighbor Left by Charles Henry</cite>
+        </div>
+    </blockquote>
+</aside>
+
 {# * Rapa Nui
 * Daintree Forest
 * Tikal
