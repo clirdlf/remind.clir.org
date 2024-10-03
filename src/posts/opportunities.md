@@ -43,7 +43,7 @@ Inviting others, across disciplines, professions, and perspectives is similarly 
                 of his thatched eaves thin, then pant,<br>
                 unwoven finally into wisps of vapor,<br>
                 so fair the sky. A hearth shortly untended,<br>
-                no troubled bell or rooted, local fragrance<br>
+                no troubled bell or rooted, local fragrances<br>
                 to spare him.<br><br>
             </span>
             <cite>Knowing My Neighbor Left by Charles Henry</cite>
