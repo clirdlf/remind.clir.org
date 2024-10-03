@@ -30,7 +30,7 @@ Essential to this rethinking are stories: narratives offering different ways of 
 
 Inviting others, across disciplines, professions, and perspectives is similarly essential. New narratives, new visualizations, new forms of expression can inspire an anthrocentric counter to the anthropocene. Our working alliance with Orion Magazine is an instance of this opportunity; other publications will offer elegantly designed and articulated stories that animate the principles and mission of Re:Mind, through words, facts, formulas, statistical data, and other means of information capture made accessible, bringing life to knowledge.
 
-<aside class="quote my-5">
+<aside id="knowing-my-neighbor" class="quote my-5">
     <blockquote>
         <div>
             <span>
